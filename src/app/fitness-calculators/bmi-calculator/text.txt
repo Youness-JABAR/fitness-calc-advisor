@@ -1,0 +1,29 @@
+      {/* Additional Information */}
+      <div className="mt-8">
+        <h3 className="text-lg font-semibold mb-2">Additional Information</h3>
+        <p className="text-gray-700">
+          Are you trying to manage your weight or achieve specific fitness goals? Knowing your daily
+          calorie needs can be instrumental in creating an effective plan. Our Calorie Calculator is
+          here to help you estimate the number of calories your body requires to maintain its current
+          weight or reach your desired weight.
+        </p>
+        <p className="text-gray-700">
+          The calculator takes into account factors such as weight, height, age, and activity level to
+          provide an estimate of your daily calorie needs. By understanding your calorie requirements,
+          you can make informed decisions about your diet and exercise routine to support your health
+          and fitness goals.
+        </p>
+        <p className="text-gray-700">
+          It's important to note that the calculated calorie value is an estimate, and individual
+          variations may apply. Factors like metabolism, muscle mass, and specific health conditions
+          can influence your actual calorie needs. Therefore, it's always recommended to consult with
+          a healthcare professional or registered dietitian for personalized guidance.
+        </p>
+        <p className="text-gray-700">
+          Remember that the Calorie Calculator provides a general estimation. If your goal is to lose
+          weight, creating a calorie deficit by consuming fewer calories than your calculated daily
+          needs can be effective. Conversely, consuming more calories than your calculated needs can
+          help you gain weight. However, it's essential to focus on the quality of the calories you
+          consume, emphasizing nutrient-dense foods and maintaining a balanced diet.
+        </p>
+      </div>

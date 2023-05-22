@@ -1,0 +1,97 @@
+/* styles.css */
+
+
+  .hero {
+    height: 100vh;
+    background-image: url('/images/athletic-man-woman-with-dumbbells.jpg');
+    background-size: cover;
+    background-position: center;  
+  }
+
+  .hero-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5CACE2;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-button {
+    background-color: #3dcab1;
+    color: #fff;
+    padding: 1rem ;
+    border-radius: 9999px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #5CACE2;
+  }
+  
+  /* section  */
+.intro {
+  margin: 40px 0 ;
+}
+
+.container {
+  /* max-width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem; */
+}
+
+.content-wrapper {
+  /* display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+.text-wrapper {
+  width: 80%;
+  justify-items: center;
+
+}
+
+.text-wrapper .paragraph   {
+  color: #4B5563;
+  text-align: justify; 
+  font-size: 18px;
+  margin: 30px 0;
+  font-weight: 400;
+  line-height: 1.6;
+}
+.button-wrapper {
+  /* display: flex;
+  gap: 1rem; */
+}
+
+.button-wrapper a {
+  /* padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  font-weight: 500;
+  text-decoration: none; */
+}
+
+
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 48rem;
+}
+
+.image-wrapper img {
+  width: 60%;
+  border-radius: 0.5rem;
+}
+
