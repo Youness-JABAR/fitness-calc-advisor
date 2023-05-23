@@ -1,10 +1,10 @@
 "use client"; // This is a client component 👈🏽
 import React, { useState } from "react";
 
-export const metadata = {
-  title: 'calorie Calculator | FitnessCalcAdvisor',
-  description: 'Estimate the number of calories you need to consume each day.',
-}
+// export const metadata = {
+//   title: 'calorie Calculator | FitnessCalcAdvisor',
+//   description: 'Estimate the number of calories you need to consume each day.',
+// }
 
 const CalorieCalculator = () => {
   const [weight, setWeight] = useState<number | null>(null);

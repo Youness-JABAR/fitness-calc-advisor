@@ -3,10 +3,10 @@ import { useState } from 'react';
 import Head from 'next/head';
 
 
-export const metadata = {
-    title: 'Body Fat Percentage Calculator | FitnessCalcAdvisor',
-    description: 'Calculate your body fat percentage to assess your body composition based on your age, weight, height measurements.',
-  }
+// export const metadata = {
+//     title: 'Body Fat Percentage Calculator | FitnessCalcAdvisor',
+//     description: 'Calculate your body fat percentage to assess your body composition based on your age, weight, height measurements.',
+//   }
 
 
 const BodyFatCalculatorPage = () => {
