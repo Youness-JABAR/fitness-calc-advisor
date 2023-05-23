@@ -11,7 +11,7 @@ export const metadata = {
   title: 'Fitness Calculator and Advisor | FitnessCalcAdvisor',
   description: 'Get accurate fitness calculations and personalized workout plans to achieve your health and fitness goals. Sign up now!',
   icons: {
-    icon: '/images/logo.png',
+    icon: '/images/logo.webp',
   },
   openGraph: {
     title: 'Fitness Calculator and Advisor | FitnessCalcAdvisor',
@@ -20,7 +20,7 @@ export const metadata = {
     siteName: 'FitnessCalcAdvisor',
     images: [
       {
-        url: '/images/logo.png',
+        url: '/images/logo.webp',
         width: 800,
         height: 600,
       },
@@ -34,7 +34,7 @@ export const metadata = {
     description: 'Get accurate fitness calculations and personalized workout plans to achieve your health and fitness goals. Sign up now!',
     site: '@FitnessCalcAdvisor', 
     // creator: '@yourusername', 
-    images: ['/images/logo.png'],
+    images: ['/images/logo.webp'],
   },
 };
 

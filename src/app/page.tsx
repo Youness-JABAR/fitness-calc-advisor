@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import styles from '@/styles/styles.module.css';
 import Link from 'next/link';
-import Image from 'next/image';
 
 const Home = () => {
   return (

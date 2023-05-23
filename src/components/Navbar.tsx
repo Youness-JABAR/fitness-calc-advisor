@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className="flex-shrink-0">
               <img
                 className="h-10 w-10 mr-2"
-                src="/images/logo.png"
+                src="/images/logo.webp"
                 alt="Logo"
               />
             </div>
