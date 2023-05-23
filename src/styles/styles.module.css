@@ -3,7 +3,7 @@
 
   .hero {
     height: 100vh;
-    background-image: url('/images/athletic-man-woman-with-dumbbells.jpg');
+    background-image: url('/images/athletic-man-woman-with-dumbbells.webp');
     background-size: cover;
     background-position: center;  
   }
@@ -41,19 +41,6 @@
   margin: 40px 0 ;
 }
 
-.container {
-  /* max-width: 100%;
-  padding-left: 1rem;
-  padding-right: 1rem; */
-}
-
-.content-wrapper {
-  /* display: flex;
-  flex-wrap: wrap-reverse;
-  justify-content: space-between;
-  align-items: center; */
-}
-
 .text-wrapper {
   width: 80%;
   justify-items: center;
@@ -67,17 +54,6 @@
   margin: 30px 0;
   font-weight: 400;
   line-height: 1.6;
-}
-.button-wrapper {
-  /* display: flex;
-  gap: 1rem; */
-}
-
-.button-wrapper a {
-  /* padding: 0.75rem 1.5rem;
-  border-radius: 0.25rem;
-  font-weight: 500;
-  text-decoration: none; */
 }
 
 

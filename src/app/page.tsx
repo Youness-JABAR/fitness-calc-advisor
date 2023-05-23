@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '@/styles/styles.module.css';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
         <section className="`${styles.intro}` container px-6 my-10 text-center">
           <div className="`${styles['content-wrapper']}` grid sm:grid-cols-2 gap-4">
             <div className={styles['image-wrapper']} >
-              <img src="/images/Build-your-body-now.png" alt="Build your body now" />
+              <img src="/images/Build-your-body-now.webp" alt="Build your body now" />
             </div>
             <div className={styles['text-wrapper']}>
               <h2 className={styles['hero-title']} >Take control of your fitness journey with FitnessCalcAdvisor.</h2>

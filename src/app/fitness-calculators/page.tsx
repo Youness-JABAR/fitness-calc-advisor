@@ -1,6 +1,5 @@
 import  Head from "next/head";
 import Link from "next/link";
-import calculators from '@/styles/calculators.module.css';
 export const metadata = {
     title: 'Fitness Calculators | FitnessCalcAdvisor',
     description: 'Use our fitness calculators to measure your BMI, calculate calories burned, and determine body fat percentage. Get accurate fitness assessments to track your progress.',
