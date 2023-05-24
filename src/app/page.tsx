@@ -9,12 +9,14 @@ const Home = () => {
       <main>
       <section className={styles.hero}>
   <div className="text-center flex flex-col items-center justify-center h-screen">
+    <div className='absolute h-full w-full' >
     <Image
       src="/images/athletic-man-woman-with-dumbbells.webp"
       alt="Fitness Image"
       fill
       className={styles['hero-image']}
-    />
+      />
+    </div>
     <h1 className={styles['hero-title']}>Achieve Your Fitness Goals with Fitness Calc Advisor</h1>
     <p className={styles['hero-description']}>Get accurate fitness calculations and personalized workout plans to achieve your health and fitness goals. Sign up now!</p>
     <div className='grid sm:grid-cols-2 gap-2'>
