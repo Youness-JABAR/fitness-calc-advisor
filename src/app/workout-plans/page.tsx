@@ -16,7 +16,7 @@ const WorkoutPlansPage = () => {
       </Head>
 
       <div className="container mx-auto py-8">
-        <h1 className="text-3xl font-bold mb-4  text-center text-blue-light pt-[5%]">Workout Plans</h1>
+        <h1 className="text-3xl font-bold mb-4  text-center text-blue-light">Workout Plans</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-6">
           <div className="bg-blue-dark text-white p-4 rounded-md">
             <h2 className="text-lg font-semibold mb-2">Beginner Workout Plan</h2>
@@ -33,8 +33,10 @@ const WorkoutPlansPage = () => {
           </div>
 
           {/* Add more workout plan boxes as needed */}
+
         </div>
       </div>
+      <div className='pt-40'></div>
     </>
   );
 };

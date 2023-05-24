@@ -1,5 +1,5 @@
 
-export default function CalculatorsLayout({
+export default function WorkoutPlansLayout({
     children, // will be a page or nested layout
   }: {
     children: React.ReactNode;

@@ -1,7 +1,8 @@
 import Navbar from '@/components/Navbar'
 import './../styles/globals.css'
 import { Inter } from 'next/font/google'
-import { Head } from 'next/document'
+import { Head, NextScript } from 'next/document'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -49,6 +50,40 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar/>
         {children}
+        <Footer/>
+        {/* <!-- Default Statcounter code for FitnessCalcAdvisor https://fitnesscalcadvisor.com/ --> */}
+
+        <NextScript />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              var sc_project=12885181; 
+              var sc_invisible=1; 
+              var sc_security="34f06055"; 
+            `,
+            }}
+          />
+          <script
+            src="https://www.statcounter.com/counter/counter.js"
+            async
+          />
+          <noscript>
+            <div className="statcounter">
+              <a
+                title="free web stats"
+                href="https://statcounter.com/"
+                target="_blank"
+              >
+                <img
+                  className="statcounter"
+                  src="https://c.statcounter.com/12885181/0/34f06055/1/"
+                  alt="free web stats"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+              </a>
+            </div>
+          </noscript>
+        {/* <!-- End of Statcounter Code --> */}
         </body>
     </html>
   )
