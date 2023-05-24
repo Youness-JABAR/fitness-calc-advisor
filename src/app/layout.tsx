@@ -1,7 +1,6 @@
 import Navbar from '@/components/Navbar'
 import './../styles/globals.css'
 import { Inter } from 'next/font/google'
-import { Head, NextScript } from 'next/document'
 import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -53,7 +52,6 @@ export default function RootLayout({
         <Footer/>
         {/* <!-- Default Statcounter code for FitnessCalcAdvisor https://fitnesscalcadvisor.com/ --> */}
 
-        <NextScript />
           <script
             dangerouslySetInnerHTML={{
               __html: `
