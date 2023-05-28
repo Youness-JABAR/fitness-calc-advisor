@@ -28,10 +28,10 @@ const Navbar = () => {
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <Link href="#" className="text-blue-light hover:bg-blue-dark hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</Link>
-                {/* <Link href="#" className="text-blue-light hover:bg-blue-dark hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</Link> */}
                 <Link href="fitness-calculators" className="text-blue-light hover:bg-blue-dark hover:text-white px-3 py-2 rounded-md text-sm font-medium">Calculators</Link>
                 <Link href="workout-plans" className="text-blue-light hover:bg-blue-dark hover:text-white px-3 py-2 rounded-md text-sm font-medium">Workout Plans</Link>
-                {/* <Link href="#" className="text-blue-light hover:bg-blue-dark hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</Link> */}
+                <Link href="blogs" className="text-blue-light hover:bg-blue-dark hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blogs</Link>
+                <Link href="about-us" className="text-blue-light hover:bg-blue-dark hover:text-white px-3 py-2 rounded-md text-sm font-medium">AboutUs</Link>
               </div>
             </div>
           </div>
@@ -71,10 +71,11 @@ const Navbar = () => {
       <div className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden`} id="mobile-menu">
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <Link href="#" className="text-gray-300 hover:bg-blue-dark hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</Link>
-          {/* <Link href="#" className="text-gray-300 hover:bg-blue-dark hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</Link> */}
           <Link href="fitness-calculators" className="text-gray-300 hover:bg-blue-dark hover:text-white block px-3 py-2 rounded-md text-base font-medium">Calculators</Link>
           <Link href="workout-plans" className="text-gray-300 hover:bg-blue-dark hover:text-white block px-3 py-2 rounded-md text-base font-medium">Workout Plans</Link>
-          {/* <Link href="#" className="text-gray-300 hover:bg-blue-dark hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</Link> */}
+          <Link href="blogs" className="text-gray-300 hover:bg-blue-dark hover:text-white block px-3 py-2 rounded-md text-base font-medium">Blogs</Link>
+          <Link href="about-us" className="text-gray-300 hover:bg-blue-dark hover:text-white block px-3 py-2 rounded-md text-base font-medium">AboutUs</Link>
+
         </div>
       </div>
     </nav>

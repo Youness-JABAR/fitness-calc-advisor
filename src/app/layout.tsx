@@ -55,9 +55,9 @@ export default function RootLayout({
           <script
             dangerouslySetInnerHTML={{
               __html: `
-              var sc_project=12885181; 
+              var sc_project=12886438; 
               var sc_invisible=1; 
-              var sc_security="34f06055"; 
+              var sc_security="6d2714cf"; 
             `,
             }}
           />
@@ -74,7 +74,7 @@ export default function RootLayout({
               >
                 <img
                   className="statcounter"
-                  src="https://c.statcounter.com/12885181/0/34f06055/1/"
+                  src="https://c.statcounter.com/12886438/0/6d2714cf/1/"
                   alt="free web stats"
                   referrerPolicy="no-referrer-when-downgrade"
                 />
@@ -82,6 +82,10 @@ export default function RootLayout({
             </div>
           </noscript>
         {/* <!-- End of Statcounter Code --> */}
+
+        {/* <!-- Start of HubSpot Embed Code --> */}
+        <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/39860269.js"></script>
+        {/* <!-- End of HubSpot Embed Code --> */}
         </body>
     </html>
   )

@@ -9,33 +9,22 @@ const Home = () => {
       <main>
       <section className={styles.hero}>
   <div className="text-center flex flex-col items-center justify-center h-screen">
-    <div className='absolute h-full w-full' >
+    <div className='absolute h-full w-full -z-10' >
     <Image
-      src="/images/athletic-man-woman-with-dumbbells.webp"
+      src="/images/athletic-man-woman-with-dumbbells-70.webp"
       alt="Fitness Image"
       fill
       className={styles['hero-image']}
       />
     </div>
     <h1 className={styles['hero-title']}>Achieve Your Fitness Goals with Fitness Calc Advisor</h1>
-    <p className={styles['hero-description']}>Get accurate fitness calculations and personalized workout plans to achieve your health and fitness goals. Sign up now!</p>
+    <p className={styles['hero-description']}>Get Accurate Fitness Calculations and Personalized Workout Plans to Achieve Your Health and Fitness Goals.</p>
     <div className='grid sm:grid-cols-2 gap-2'>
       <Link href="fitness-calculators" className={styles['hero-button']}>Calculate Your Fitness</Link>
       <Link href="workout-plans" className={styles['hero-button']}>Start Your Workout</Link>
     </div>
   </div>
 </section>
-
-         {/* <section className={styles.hero}>
-          <div className=" text-center  flex flex-col items-center justify-center h-screen ">
-            <h1 className={styles['hero-title']}>Achieve Your Fitness Goals with Fitness Calc Advisor</h1>
-            <p className={styles['hero-description']}>Get accurate fitness calculations and personalized workout plans to achieve your health and fitness goals. Sign up now!</p>
-            <div className='grid sm:grid-cols-2 gap-2'>
-              <Link href="fitness-calculators" className={styles['hero-button']}>Calculate Your Fitness</Link>
-              <Link href="workout-plans" className={styles['hero-button']}>Start Your Workout</Link>
-            </div>
-          </div>
-        </section> */}
         <section className="`${styles.intro}` container px-6 my-10 text-center">
           <div className="`${styles['content-wrapper']}` grid sm:grid-cols-2 gap-4">
           <div className={styles['image-wrapper']}>
